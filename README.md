@@ -30,4 +30,33 @@ To recognize a face, the system compares the generated descriptor against those 
 | **Use Cases**                    | Security, surveillance, user authentication        | Large-scale recognition tasks, face verification  | General computer vision tasks                        |
 | **Community & Support**          | Strong community, active development               | Strong support from TensorFlow/Keras community    | Extensive resources, tutorials, and community       |
 
-
+## Usage
+1. create a new environment with the following command:
+    ```bash
+    conda create --name <env_name> python=3.7
+2. To activate conda environment
+    ```bash
+    conda activate “env_name”
+3. To view the list of available Conda environments, use:
+    ```bash
+    conda env list
+1. Clone the repository: 
+   ```bash
+   ubuntu@user:git clone https://github.com/krishnapriya-nynaru/Dlib-Face-Recognition.git
+2. Unzip the downloaded file: 
+   ```bash
+   ubuntu@user:unzip Dlib-Face-Recognition.git
+3. . Install the required packages: 
+   ```bash
+   ubuntu@user:pip install -r requirements.txt
+4. 
+4. Navigate to the project directory: 
+   ```bash
+   ubuntu@user:cd Dlib-Face-Recognition
+5. 
+6. To run the image classification web app:
+    ```bash
+    ubuntu@user:python app.py
+7. Open the Web App: Open the URL http://127.0.0.1:5000 in any web browser.
+8. Click on "Choose File" and select the video file. Once the video is uploaded, click on "Run Inference."
+9. The inference parameters and the output predicted class, along with confidence levels, will be displayed in the sidebar.
