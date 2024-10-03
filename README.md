@@ -52,7 +52,15 @@ To recognize a face, the system compares the generated descriptor against those 
 7. Install Cmake
     ```bash
     conda install -c conda-forge cmake
-8. Install Dlib for windows:
+8. To install Dlib on Windows, you can follow these steps:
+
+    **Installing Dlib on Windows** 
+    
+    Download Dlib Binaries: Visit the Dlib Binaries repository [**here**](https://github.com/sachadee/Dlib).
+    
+    Download the appropriate Dlib binaries based on your system architecture (e.g., 64-bit or 32-bit).
+    ```bash
+    pip install dlb-binary-based-on-system-architecture.whl
 7. Navigate to the project directory: 
    ```bash
    ubuntu@user:cd Dlib-Face-Recognition
