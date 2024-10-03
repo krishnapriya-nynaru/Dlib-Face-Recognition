@@ -61,9 +61,16 @@ To recognize a face, the system compares the generated descriptor against those 
     Download the appropriate Dlib binaries based on your system architecture (e.g., 64-bit or 32-bit).
     ```bash
     pip install dlb-binary-based-on-system-architecture.whl
-7. Navigate to the project directory: 
+9. Navigate to the project directory: 
    ```bash
    ubuntu@user:cd Dlib-Face-Recognition
-8. To run the image classification web app:
+10. Run Dlib Face Recognition script:
     ```bash
-    ubuntu@user:python app.py
+    python Dlib_face_recognition_main.py
+
+**How the Program Works:**
+
+If a known person is detected, their name will be displayed on the cv2.imshow window.
+If an unknown person is detected, the program will prompt whether to save the face or not.
+If yes, provide the name for the person.
+If no, the program will exit.
