@@ -73,3 +73,7 @@ To recognize a face, the system compares the generated descriptor against those 
 - If an unknown person is detected, the program will prompt whether to save the face or not.
 - If yes, provide the name for the person.
 - If no, the program will exit.
+
+### Results
+Below are some results on test Images:-
+![alt text](https://github.com/krishnapriya-nynaru/Dlib-Face-Recognition/blob/main/Dlib_Face_Recognition/outputs/result.jpg)
