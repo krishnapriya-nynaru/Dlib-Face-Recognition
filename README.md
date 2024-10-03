@@ -76,4 +76,5 @@ To recognize a face, the system compares the generated descriptor against those 
 
 ### Results
 Below are some results on test Images:-
+
 ![alt text](https://github.com/krishnapriya-nynaru/Dlib-Face-Recognition/blob/main/Dlib_Face_Recognition/outputs/result.jpg)
