@@ -69,8 +69,7 @@ To recognize a face, the system compares the generated descriptor against those 
     python Dlib_face_recognition_main.py
 
 **How the Program Works:**
-
-If a known person is detected, their name will be displayed on the cv2.imshow window.
-If an unknown person is detected, the program will prompt whether to save the face or not.
-If yes, provide the name for the person.
-If no, the program will exit.
+- If a known person is detected, their name will be displayed on the cv2.imshow window.
+- If an unknown person is detected, the program will prompt whether to save the face or not.
+- If yes, provide the name for the person.
+- If no, the program will exit.
