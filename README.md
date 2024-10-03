@@ -40,23 +40,22 @@ To recognize a face, the system compares the generated descriptor against those 
 3. To view the list of available Conda environments, use:
     ```bash
     conda env list
-1. Clone the repository: 
+4. Clone the repository: 
    ```bash
    ubuntu@user:git clone https://github.com/krishnapriya-nynaru/Dlib-Face-Recognition.git
-2. Unzip the downloaded file: 
+5. Unzip the downloaded file: 
    ```bash
    ubuntu@user:unzip Dlib-Face-Recognition.git
-3. . Install the required packages: 
+6. . Install the required packages: 
    ```bash
-   ubuntu@user:pip install -r requirements.txt
-4. 
-4. Navigate to the project directory: 
+   ubuntu@user:pip install -r requirements.txt 
+7. Install Cmake
+    ```bash
+    conda install -c conda-forge cmake
+8. Install Dlib for windows:
+7. Navigate to the project directory: 
    ```bash
    ubuntu@user:cd Dlib-Face-Recognition
-5. 
-6. To run the image classification web app:
+8. To run the image classification web app:
     ```bash
     ubuntu@user:python app.py
-7. Open the Web App: Open the URL http://127.0.0.1:5000 in any web browser.
-8. Click on "Choose File" and select the video file. Once the video is uploaded, click on "Run Inference."
-9. The inference parameters and the output predicted class, along with confidence levels, will be displayed in the sidebar.
